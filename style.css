@@ -567,25 +567,22 @@ body {
   text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
 }
 
-
 .project .cta:hover {
   background-color: #0781b1;
   transition: 0.3s ease;
 }
 
-.project .btn-project{
+.project .btn-project {
   text-align: center;
   color: #fff;
   font-weight: 600;
-  
-  
 }
-.project .btn-project a{
+.project .btn-project a {
   color: whitesmoke;
   font-weight: 600;
   font-size: 1rem;
 }
-.project .btn-project a:hover{
+.project .btn-project a:hover {
   color: rgb(206, 203, 203);
   transition: 0.3s ease;
 }
@@ -594,7 +591,7 @@ body {
   transition: 0.3s ease;
   cursor: pointer;
 }
-.project .btn-project button{
+.project .btn-project button {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.8rem 1.5rem;
@@ -604,8 +601,6 @@ body {
   background-color: var(--main-color);
   border-radius: 50px;
   box-shadow: 1px 1px 3px rgb(0, 171, 240, 0.5);
-  
-  
 }
 /* Project End */
 
@@ -719,7 +714,6 @@ textarea:focus {
   #about {
     min-height: 100vh;
   }
-  
 }
 /* Tablet */
 @media (max-width: 768px) {
@@ -802,7 +796,6 @@ textarea:focus {
     height: 50%;
     display: none;
   }
-  
 }
 /* Mobile */
 @media (max-width: 450px) {
