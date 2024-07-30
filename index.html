@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rezzy Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Animate Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar animate__animated animate__fadeInDown">
+      <a href="#" class="navbar-logo">REZZY.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a id="humberger-menu" href="#"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- HOME START -->
+
+    <section class="hero" id="home">
+      <main class="content animate__animated animate__fadeInLeft">
+        <h1>
+          Hello,<br />I'am Mohammad Rezzy Al Zamzammi <br /><span
+            >Web Developer</span
+          >
+        </h1>
+        <a
+          id="btn"
+          href="file:///C:/Users/HP/Downloads/CV%20Rezzy.pdf"
+          class="cta animate__animated animate__fadeInUp"
+          onclick="ClickButton()"
+          >Download CV</a
+        >
+        <div class="wrapper">
+          <div class="icon facebook">
+            <div class="tooltip">Facebook</div>
+            <span>
+              <a href="https://www.facebook.com/rezzynezz1"
+                ><i data-feather="facebook"></i></a
+            ></span>
+          </div>
+          <div class="icon instagram">
+            <div class="tooltip">Instagram</div>
+            <span>
+              <a href="https://www.instagram.com/mrzyalzm"
+                ><i data-feather="instagram"></i></a
+            ></span>
+          </div>
+          <div class="icon linkedin">
+            <div class="tooltip">Linkedin</div>
+            <span>
+              <a href="https://www.linkedin.com/in/rezzyalzamzammi"
+                ><i data-feather="linkedin"></i></a
+            ></span>
+          </div>
+        </div>
+      </main>
+
+      <div id="img-home" class="row animate__animated animate__backInRight">
+        <div class="home-img">
+          <img src="assets/shape.png" alt="" class="shape" />
+          <img src="assets/image.png" alt="" class="rezzy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- HOME END -->
+    <!-- About Start -->
+    <section id="about" class="about">
+      <h2 class="animate__animated animate__zoomIn" data-aos="fade-up">
+        About <span data-aos="fade-up">Me!</span>
+      </h2>
+      <div class="row content animate__animated animate__zoomIn">
+        <div class="about-img animate__animated animate__fadeIn">
+          <img data-aos="zoom-out" src="assets/zy2.png" alt="" />
+        </div>
+        <div class="content animate__animated animate__fadeIn">
+          <h3 data-aos="fade-right" data-aos-duration="1000">
+            <span>I'am</span>
+            <strong>Mohammad Rezzy Al Zamzammi</strong>
+          </h3>
+          <p data-aos="fade-left" data-aos-duration="1000">
+            Nama saya Mohammad Rezzy Al Zamzammi, namun saya lebih sering
+            dipanggil Rezzy. Saya berasal dari Jembrana, Negara, Bali, dan saat
+            ini saya sedang menempuh studi di Universitas Pendidikan Ganesha
+            (Undiksha), jurusan Teknik Informatika, semester 5. <br /><br />
+            Sejak awal saya masuk ke Undiksha, saya sudah memiliki minat yang
+            besar dalam bidang coding, terutama dalam pemrograman web. Minat ini
+            semakin berkembang ketika saya mendapatkan mata kuliah Pemrograman
+            Web pada semester 3, yang berhasil saya selesaikan dengan hasil yang
+            sangat memuaskan. Pada semester 4, saya melanjutkan dengan mata
+            kuliah Pemrograman Mobile, dan kembali mendapatkan nilai yang sangat
+            baik. Di semester 5 ini, saya memilih konsentrasi Rekayasa Perangkat
+            Lunak (RPL) untuk lebih memperdalam pengetahuan saya.<br />
+            <br />
+            Dalam perjalanan saya di dunia pemrograman, saya telah mempelajari
+            berbagai bahasa dan teknologi seperti HTML, CSS, JavaScript, PHP,
+            Python, dan C++. Selain itu, saya juga sudah mengeksplorasi
+            framework Laravel. Saat ini, saya sedang fokus mendalami library
+            React.js karena, setelah mempelajari JavaScript, saya menemukan
+            bahwa bahasa ini cukup mudah dipahami dan sangat fleksibel untuk
+            pengembangan front-end. Untuk bagian back-end, saya sudah familiar
+            dengan penggunaan MySQL dan Firebase. Saya terus mengembangkan
+            keterampilan dan pengetahuan saya di dunia pemrograman, dengan
+            harapan dapat menghadapi tantangan baru yang muncul dalam industri
+            teknologi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About END -->
+    <!-- Skill Start -->
+    <div id="skills" class="skills_section">
+      <div class="skills_head">
+        <h2 data-aos="fade-down" data-aos-duration="1000">
+          <span>My</span> Skills
+        </h2>
+        <p></p>
+      </div>
+
+      <div class="skills_main" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="skill_bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>71%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>64%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Java script</p>
+            <p>45%</p>
+          </div>
+          <div class="bar">
+            <span class="js"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>PHP</p>
+            <p>33%</p>
+          </div>
+          <div class="bar">
+            <span class="php"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Adobe Animate</p>
+            <p>20%</p>
+          </div>
+          <div class="bar">
+            <span class="animate"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Java</p>
+            <p>15%</p>
+          </div>
+          <div class="bar">
+            <span class="java"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>C++</p>
+            <p>10%</p>
+          </div>
+          <div class="bar">
+            <span class="c"></span>
+          </div>
+        </div>
+        <div class="skill_bar">
+          <div class="info">
+            <p>Python</p>
+            <p>8%</p>
+          </div>
+          <div class="bar">
+            <span class="python"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skill End -->
+    <!-- Portofolio Start -->
+    <div id="project" class="project">
+      <div class="container">
+        <h1 data-aos="fade-down" data-aos-duration="1000">
+          <span>Pro</span>ject
+        </h1>
+        <p data-aos="fade-down" data-aos-duration="1000">
+          My project during <span>college</span>
+        </p>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div
+            class="swiper-wrapper"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="swiper-slide">
+              <img src="assets/contoh.png" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Menggunakan frimework Flutter <br />dengan database Firebase
+                </p>
+                <h2>Aplikasi Mobile Skill Sync</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/projectWeb.png" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Menggunakan HTML, CSS, JS dan PHP <br />dengan database MySql
+                </p>
+                <h2>Create Website MyBuilder</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/projectRobot.JPG" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Menggunakan bahasa pemograman C++ <br />dengan aplikasi
+                  Arduino IDE
+                </p>
+                <h2>Car Parking System</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/projectDetek.png" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Mendeteksi Citra CCTV yang buram <br />menggunakan bahasa
+                  pemograman Python
+                </p>
+                <h2>Deteksi Objek pada Citra CCTV</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/projectTopologi.jpg" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Membuat topologi jaringan <br />dengan menggunakan Cisco dan
+                  Ekahau
+                </p>
+                <h2>Analisis Jaringan Gor Keong Undiksha</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/projectAnimate.png" alt="my-project" />
+              <div class="desc-project">
+                <p>
+                  Membuat Animasi 2D dengan aplikasi yang <br />terlibat Adobe
+                  Animate dan Ilustrator
+                </p>
+                <h2>Animasi 2D</h2>
+              </div>
+            </div>
+            >
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="btn-project">
+          <button data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://github.com/zyreejago">Selengkapnya</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Portofolio End -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 data-aos="fade-down" data-aos-duration="1000">
+          Contact <strong>Us</strong>
+        </h2>
+        <div class="contact-wrapper">
+          <div
+            class="contact-form"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <h3>Send Us a <span>message</span></h3>
+            <form action="">
+              <div class="form-group">
+                <input type="temt" name="name" placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <input type="temt" name="email" placeholder="Your Email" />
+              </div>
+              <div class="form-group">
+                <textarea name="message" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit">
+                <a href="mailto:rezzynezz1@gmail.com">Send Message</a>
+              </button>
+            </form>
+          </div>
+          <div
+            class="contact-info"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h3>Contact <span>Information</span></h3>
+            <p><i id="mail" data-feather="mail"></i>rezzynezz1@gmail.com</p>
+            <p><i id="mail" data-feather="map-pin"></i>Jembrana Negara, Bali</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          575: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>
+
+    <script src="circle-progress.js"></script>
+
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- JS -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
